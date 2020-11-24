@@ -14,6 +14,6 @@ int josephRE(int n, int m){
 int main(){
 	int n,m;
 	scanf("%d%d",&n,&m);
-	printf("%d",josephRE(n,m)+1); //it starts from 0. To satisfy the OJ requirement, I add 1 to it.
-	return 0;
+	printf("%d",josephRE(n,m)+1); 	//it starts from 0. To satisfy the OJ requirement, I add 1 to it.
+//	printf("%d",joseph(n,m)+1);	//both availble, choose as you like.
 }
