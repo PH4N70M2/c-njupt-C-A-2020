@@ -18,4 +18,5 @@ int main(){
 	printf("sizeof(double)=%d\n",g);
 
 	return 0;
+
 }
