@@ -11,8 +11,7 @@ int main(){
 	x=f(x);
 //	printf("%d\n",x);
 	int ans=0;
-	do
-	{
+	do{
 		ans+=x%10;
 		x/=10;
 	}while(x);
