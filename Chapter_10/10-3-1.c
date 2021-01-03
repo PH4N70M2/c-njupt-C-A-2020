@@ -31,7 +31,8 @@ int main(){
 		scanf("%d",&stud[i].mark.maths);
 		scanf("%d",&stud[i].mark.physics);
 		scanf("%d",&stud[i].mark.english);
-		stud[i].avgscore=stud[i].mark.maths;
+		stud[i].avgscore=0;
+		stud[i].avgscore+=stud[i].mark.maths;
 		stud[i].avgscore+=stud[i].mark.physics;
 		stud[i].avgscore+=stud[i].mark.english;
 		stud[i].avgscore/=3;
